@@ -21,7 +21,7 @@ const EarthMain = ({
 }) => (
   <main style={{ maxHeight: "100vh", overflow: "hidden" }}>
         <p>
-     <bold> <i>Earth is FLAT </i></bold> and that  is a FACT!!! <br />
+     <bold> <i>Earth is FLAT </i></bold> and that  is a FACT!!! (No, it is just a humor)  <br />
       <span>By <a href="https://github.com/leopantsulaia" target="leopantsulaia" rel="any"> leopantsulaia </a> </span>
     </p>
     <Canvas

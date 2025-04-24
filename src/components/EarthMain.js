@@ -20,6 +20,10 @@ const EarthMain = ({
   OrbitControls,
 }) => (
   <main style={{ maxHeight: "100vh", overflow: "hidden" }}>
+        <p>
+     <bold> <i>Earth is FLAT </i></bold> and that  is a FACT!!! <br />
+      <span>By <a href="https://github.com/leopantsulaia" target="leopantsulaia" rel="any"> leopantsulaia </a> </span>
+    </p>
     <Canvas
       camera={{ position: [0, 0, 8.5], fov: 40 }}
       style={{
@@ -128,6 +132,7 @@ const EarthMain = ({
           rel="noopener noreferrer">
           Background Texture Source
         </a>
+        <p><a href="https://github.com/leopantsulaia" target="leopantsulaia" rel="any">MADE BY LEOPANTSULAIA</a></p>
       </Typography>
     </div>
   </main>

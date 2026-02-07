@@ -21,7 +21,7 @@ const Earth = ({
 
   return (
     <mesh {...props} ref={mesh} scale={[2, 2, 2]}>
-      <sphereBufferGeometry args={[1, earthTrisAmount, earthTrisAmount]} />
+      <sphereGeometry args={[1, earthTrisAmount, earthTrisAmount]} />
       {settingsAreLow ? (
         <meshStandardMaterial
           attach="material"

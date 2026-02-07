@@ -20,7 +20,7 @@ const Clouds = ({
 
   return (
     <mesh {...props} ref={mesh} scale={[2.005, 2.005, 2.005]}>
-      <sphereBufferGeometry transparent={true} args={[1, 64, 64]} />
+      <sphereGeometry args={[1, 64, 64]} />
       {settingsAreLow ? (
         <meshStandardMaterial attach="material" transparent={true}>
           <primitive attach="map" object={texture} />
